@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.example.mhmd.myappportfolio.MainActivity"
+    tools:showIn="@layout/activity_main"
+    android:background="@color/colorBackground"
+
+    >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/colorBackground"
+        >
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/colorBackground"
+            >
+
+            <TextView
+                android:id="@+id/MyNanodegreeApps"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAlignment="center"
+                android:text="@string/MyNanodegreeApps"
+                android:layout_centerHorizontal="true"
+                android:textSize="22sp"
+                android:padding="12dp"
+                android:layout_marginBottom="18dp"
+                />
+
+            <Button
+            android:layout_width="wrap_content"
+            android:layout_height="58dp"
+            android:text="@string/SpotifyStreamer"
+            android:id="@+id/btnSpotify"
+            android:layout_below="@+id/MyNanodegreeApps"
+            android:layout_alignRight="@+id/MyNanodegreeApps"
+            android:layout_alignEnd="@+id/MyNanodegreeApps"
+            android:layout_alignLeft="@+id/MyNanodegreeApps"
+            android:layout_alignStart="@+id/MyNanodegreeApps" />
+
+            <Button
+            android:layout_width="wrap_content"
+                android:layout_height="58dp"
+            android:text="Scores App"
+            android:id="@+id/btnScores"
+            android:layout_below="@+id/btnSpotify"
+            android:layout_alignRight="@+id/MyNanodegreeApps"
+            android:layout_alignEnd="@+id/MyNanodegreeApps"
+            android:layout_alignLeft="@+id/MyNanodegreeApps"
+            android:layout_alignStart="@+id/MyNanodegreeApps" />
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="58dp"
+                android:text="Library App"
+                android:id="@+id/btnLibrary"
+                android:layout_below="@+id/btnScores"
+                android:layout_alignRight="@+id/MyNanodegreeApps"
+                android:layout_alignEnd="@+id/MyNanodegreeApps"
+                android:layout_alignLeft="@+id/MyNanodegreeApps"
+                android:layout_alignStart="@+id/MyNanodegreeApps" />
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="58dp"
+                android:text="Build it Bigger"
+                android:id="@+id/btnBuilditBigger"
+                android:layout_below="@+id/btnLibrary"
+                android:layout_alignRight="@+id/MyNanodegreeApps"
+                android:layout_alignEnd="@+id/MyNanodegreeApps"
+                android:layout_alignLeft="@+id/MyNanodegreeApps"
+                android:layout_alignStart="@+id/MyNanodegreeApps" />
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="58dp"
+                android:text="XYZ Reader"
+                android:id="@+id/btnXyz"
+                android:layout_below="@+id/btnBuilditBigger"
+                android:layout_alignRight="@+id/MyNanodegreeApps"
+                android:layout_alignEnd="@+id/MyNanodegreeApps"
+                android:layout_alignLeft="@+id/MyNanodegreeApps"
+                android:layout_alignStart="@+id/MyNanodegreeApps" />
+
+            <Button
+                android:theme="@style/SpecialButton"
+                android:layout_width="wrap_content"
+                android:layout_height="58dp"
+                android:text="Capstone: My Own App"
+                android:id="@+id/btnCapstone"
+                android:layout_below="@+id/btnXyz"
+                android:layout_alignRight="@+id/MyNanodegreeApps"
+                android:layout_alignEnd="@+id/MyNanodegreeApps"
+                android:layout_alignLeft="@+id/MyNanodegreeApps"
+                android:layout_alignStart="@+id/MyNanodegreeApps" />
+
+
+
+        </RelativeLayout>
+    </LinearLayout>
+
+</ScrollView>
